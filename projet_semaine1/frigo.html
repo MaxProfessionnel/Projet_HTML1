@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title> Frigo connecté</title> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <nav>
+            <div class="menu">
+                <div class="titreLo">
+                    <img src="images/logo.png" alt="logosite"> 
+                    <h1 class="entreprise">FRIGO</h1>
+                </div>
+                <ul>     
+                    <li><a href="frigo.html">Accueil</a></li>
+                    <li>Produits</li>
+                    <li><a href="presentation.html">A propos</a></li>
+                    <li><a href="contact.html">Contact</a></li>				
+                </ul>
+                <div class="imagesmenu">
+                    <img src="images/coeur.png" alt="listeenvie">
+                    <img src="images/panier.png" alt="panier">
+                </div>
+            </div>
+        </nav>
+        <section>
+            <div class="gauche">
+                <div class="photohaut">
+                    <a href="images/connecte.webp" target="_blank"><img src="images/connecte.webp" alt="produit"/></a>
+                </div>
+                <div class="competence">
+                    <div class="froid">
+                        <img src="images/flocon.png" alt="logo1">
+                        <p>Un Frigo tout autant congélateur.</p>
+                    </div>
+                    <div class="reseau">
+                        <img src="images/wifi.png" alt="logo2">
+                        <p>Connecté, il est capable de détécter lorsque vous manquez de nourriture.<br/> Grâce à une liste que vous aurez préalablement intégrée, votre frigo pourra vous commander vos courses.</p>
+                    </div>
+                    <div class="water">
+                        <img src="images/eau.webp" alt="logo3">
+                        <p>Aussi distributeur d'eau courante !</p>
+                    </div>
+                </div>
+                <div class="photobas">
+                    <img src="images/tel.jpg" alt="telephone">
+                </div>
+            </div>
+            <div class="droite">
+                <div class="titre">
+                    <h1>FRIGO model XP22GR3</h1>
+                </div>
+                <div class="txt1">
+                    <ul>
+                        <li>Livraison avec mise en service gratuite sur rendez-vous sous 3 à 5 jours</li>
+                        <li>Créneau de 2h de votre choix</li>
+                        <li>Paiement CB 3 ou 4 fois sans frais</li>
+                        <li>Retour facile et gratuit sous 14 jours</li>
+                        <li>Garantie 24 mois</li>
+                        <li>Reprise de votre ancien appareil</li>
+                        <li>Extension de garantie 3 ans payante</li>
+                        <li>Possibilité d’étendre la garantie constructeur de 2 à 5 ans</li>
+                    </ul>
+                </div>
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/j-345Mbs3kI" title="An Introduction to the Samsung Family Hub" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                </div>
+                <div class="txt2">
+                    <h3>Froid Ventilé Plus (Technologie Twin Cooling™ )</h3>
+                    <p>Le Froid ventilé Plus allie tous les avantages du froid ventilé (pas de givre, température homogène) à la technologie Twin Cooling™ afin de conserver vos aliments dans les meilleures conditions. Le Froid Ventilé Plus maintient ainsi un taux d’humidité optimal dans le réfrigérateur et préserve la qualité des aliments même les plus sensibles.</p>
+                    <h3>Metal cooling</h3>
+                    <p>Gardez les aliments frais, même si vous ouvrez et fermez fréquemment la porte. Le conduit métallique de refroidissement dans la paroi arrière aide à maintenir la température interne optimale. Il retient le froid et empêche la perte d'air frais lorsque la porte est ouverte. Et il rétablit rapidement toute perte de chaleur lorsqu'elle est refermée.</p>
+
+                </div>
+                <div class="conso">
+                    <img src="images/conso.webp" alt="étiquette énergétique">
+                    <div class="txte">
+                        <h3>Consommation énergétique</h3>
+                        <p>Profitez d’économies d’énergie, d’un fonctionnement silencieux et d’un produit qui dure dans le temps. <br/>Le compresseur Digital Inverter ajuste automatiquement sa vitesse en fonction du besoin de refroidissement. <br/>Il fonctionne donc de manière silencieuse et consomme moins d’énergie. Son fonctionnement est certifié pour 21 ans, accompagné d’une garantie commerciale de 20 ans (sur la pièce du compresseur uniquement), pour plus de sérénité.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <h2 class="faq">FAQ</h2>
+            <form method="post">
+				<p>Des questions? Posez les ci-dessous! </p>
+				<p>
+					<label for="question">Vos questions:</label>
+					<input type="text" id="question" placeholder="écrire ici">
+				</p>
+				<p>
+					<label for="email_utilisateur">Email:</label>
+					<input type="email" id="email_utilisateur" placeholder="nom.prenom@mail.com">
+				</p>
+				<p>
+					<label for="num_tel">N°Tel:</label>
+					<input type="tel" id="num_tel" placeholder=".. .. .. .. ..">
+				</p>
+				<p>
+					Vous êtes:<br />
+       				<input type="radio" name="sexe" value="homme" id="homme" /> <label for="homme">Un homme</label><br />
+       				<input type="radio" name="sexe" value="femme" id="femme" /> <label for="femme">Une femme</label><br />
+                    <input type="radio" name="sexe" value="autre" id="autre" /> <label for="autre">Autre</label><br />
+       			</p>
+       			<p>
+       				<input type="submit" id="bouton" value=" Envoyer " />
+       			</p>
+			</form>
+        </footer>
+    </body>
+   
+</html>

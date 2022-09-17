@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title> Frigo connecté</title> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <nav>
+            <div class="menu">
+                <div class="titreLo">
+                    <img src="images/logo.png" alt="logosite"> 
+                    <h1 class="entreprise">FRIGO</h1>
+                </div>
+                <ul>     
+                    <li><a href="frigo.html">Accueil</a></li>
+                    <li>Produits</li>
+                    <li><a href="presentation.html">A propos</a></li>
+                    <li><a href="contact.html">Contact</a></li>				
+                </ul>
+                <div class="imagesmenu">
+                    <img src="images/coeur.png" alt="listeenvie">
+                    <img src="images/panier.png" alt="panier">
+                </div>
+            </div>
+        </nav>
+        <section class="contact">
+            <div class="youtube">
+                <a href="https://www.youtube.com/c/Samsung" target="blank"><img src="images/yt.png"></a>
+            </div>
+            <div class="insta">
+                <a href="https://www.instagram.com/samsung/?hl=fr" target="blank"><img src="images/insta.png"></a>
+            </div>
+            <div class="twitter">
+                <a href="https://twitter.com/SamsungProFR" target="blank"><img src="images/tt.png"></a>
+            </div>
+            <div class="fb">
+                <a href="https://www.facebook.com/SamsungFrance?brand_redir=126761694007536" target="blank"><img src="images/fb.png"></a>
+            </div>
+        </section>   
+        <footer>
+            <h2 class="faq">FAQ</h2>
+            <form method="post">
+				<p>Des questions? Posez les ci-dessous! </p>
+				<p>
+					<label for="question">Vos questions:</label>
+					<input type="text" id="question" placeholder="écrire ici">
+				</p>
+				<p>
+					<label for="email_utilisateur">Email:</label>
+					<input type="email" id="email_utilisateur" placeholder="nom.prenom@mail.com">
+				</p>
+				<p>
+					<label for="num_tel">N°Tel:</label>
+					<input type="tel" id="num_tel" placeholder=".. .. .. .. ..">
+				</p>
+				<p>
+					Vous êtes:<br />
+       				<input type="radio" name="sexe" value="homme" id="homme" /> <label for="homme">Un homme</label><br />
+       				<input type="radio" name="sexe" value="femme" id="femme" /> <label for="femme">Une femme</label><br />
+                    <input type="radio" name="sexe" value="autre" id="autre" /> <label for="autre">Autre</label><br />
+       			</p>
+       			<p>
+       				<input type="submit" id="bouton" value=" Envoyer " />
+       			</p>
+			</form>
+        </footer>
+    </body>
+   
+</html>
